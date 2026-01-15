@@ -7,12 +7,9 @@ const Footer = () => {
     <div className="footer" id="footer">
       <div className="footer-content">
         <div className="footer-content-left">
-          <img src={assets.logo} alt="" />
+          <h1 className="logo-text" style={{ color: 'var(--primary-color)', fontSize: '30px', fontWeight: 'bold' }}>POTATO.</h1>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque
-            nostrum iure suscipit maiores non harum incidunt unde magnam
-            molestias ipsum qui vel aut natus aspernatur ipsa dignissimos,
-            numquam assumenda deserunt.
+            Choosing Potato means choosing quality, speed, and deliciousness. We are dedicated to bringing the best food from the best restaurants directly to your doorstep.
           </p>
           <div className="footer-social-icons">
             <img src={assets.facebook_icon} alt="" />
@@ -33,13 +30,13 @@ const Footer = () => {
           <h2>Get in touch</h2>
           <ul>
             <li>+92-308-4900522</li>
-            <li>contact@tomato.com</li>
+            <li>mehmoodmavia1@gmail.com</li>
           </ul>
         </div>
       </div>
       <hr />
       <p className="footer-copyright">
-        Copyright 2024 @ Tomato.com - All Right Reserved.
+        Copyright 2024 @ Potato.com - All Right Reserved.
       </p>
     </div>
   );

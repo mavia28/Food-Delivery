@@ -1,24 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
+:root {
+  --primary-color: #FEB600; /* Potato Gold */
+  --secondary-color: #FF6B00; /* Warm Accent */
+  --text-color: #2D2D2D;
+  --bg-color: #F9F9F9;
+  --white: #ffffff;
+  --shadow: 0 8px 30px rgba(0,0,0,0.06);
+  --radius: 16px;
+}
+
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: Outfit;
+  font-family: 'Outfit', sans-serif;
   scroll-behavior: smooth;
 }
+
 body{
   min-height: 100vh;
+  background-color: var(--bg-color);
+  color: var(--text-color);
 }
 a{
   text-decoration: none;
   color: inherit;
 }
 .app{
-  width: 80%;
+  width: 85%;
+  max-width: 1440px;
   margin: auto;
 }
-
 @keyframes fadeIn{
   0%{
     opacity: 0;
